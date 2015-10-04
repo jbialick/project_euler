@@ -1,0 +1,98 @@
+body {
+	background-color: black;
+}
+
+div {
+	background-color: black;
+	color: white;
+}
+
+b {
+	font-size: 22px;
+	color: #E0EBFF;
+}
+
+#header {
+	position: relative;
+	margin-right: 140px;
+	height: 158px;
+	min-width: 450px;
+	border: 1px transparent solid;
+	background: black;
+}
+
+#logo {
+	float: right;
+	position: absolute;
+	right:-140px;
+	top:0;
+	padding: 10px 8px 8px 11px;
+}
+
+#title {
+	position: relative;
+	margin: 10px 10px 10px 14px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #ADB9DB;
+	font-size: 38px;
+}
+
+#quote {
+	margin: 14px 10px 10px 14px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #ACACC1;
+	font-size: 18px;
+}
+
+#sidebar {
+	position: absolute;
+	top: 160px;
+	bottom:0px;
+	left: 14px;
+	width: 130px;
+	background-color: gray;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.problem {
+	background-color: gray;
+	border-radius: 10px;
+	height: 100px;
+	margin: 0 10px 10px 155px;
+}
+
+#problem1 {
+	background-color: #6E1634;
+}
+
+#problem2 {
+	background-color: #9A5C71;
+}
+
+#problem3 {
+	background-color: #B88D9C;
+}
+
+#problem4 {
+	background-color: #C5B0CC;
+}
+
+#problem5 {
+	background-color: #9999C6;
+}
+
+#problem6 {
+	background-color: #6D6DAD;
+}
+
+#problem7 {
+	background-color: #2E2E8A;
+}
+
+
+
+
+
+
+
