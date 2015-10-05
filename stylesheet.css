@@ -8,25 +8,66 @@ div {
 }
 
 b {
-	font-size: 22px;
+	font-size: 20px;
 	color: #E0EBFF;
 }
 
+.problem b {
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+hr {
+	margin: 0 10px 0 10px;
+	border: 0;
+    border-top: 1px solid #817C99;
+}
+
+form {
+	margin: 10px 10px 10px 10px;
+	font-family:  "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	color: #ACACC1;
+}
+
+input[type="text"] {
+	outline: none;
+	font-size: 13px;
+   	padding: 4px 8px 4px 8px;
+  	border: solid 1px #dcdcdc;
+  	transition: box-shadow 0.3s, border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="text"].focus {
+ 	 border: solid 1px white;
+ 	 box-shadow: 0 0 5px 2px white;
+}
+
+input[type="submit"] {
+	color: black;
+	border: 1px solid gray;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
 #header {
-	position: relative;
-	margin-right: 140px;
-	height: 158px;
-	min-width: 450px;
-	border: 1px transparent solid;
+	z-index: 1;
+	position: fixed;
+	margin-right: 110px;
+	height: 128px;
+	min-width: 605px;
 	background: black;
+	/*border-right: 2px black solid;*/
 }
 
 #logo {
 	float: right;
 	position: absolute;
-	right:-140px;
+	right:-109px;
 	top:0;
 	padding: 10px 8px 8px 11px;
+	background-color: black;
 }
 
 #title {
@@ -34,60 +75,93 @@ b {
 	margin: 10px 10px 10px 14px;
 	font-family: "Arial Black", Gadget, sans-serif;
 	color: #ADB9DB;
-	font-size: 38px;
+	font-size: 32px;
 }
 
 #quote {
-	margin: 14px 10px 10px 14px;
+	margin: 13px 10px 10px 14px;
 	font-family: Verdana, Geneva, sans-serif;
 	color: #ACACC1;
-	font-size: 18px;
+	font-size: 17px;
+	line-height: 125%;
 }
 
 #sidebar {
-	position: absolute;
-	top: 160px;
-	bottom:0px;
+	position: fixed;
+	top: 130px;
+	bottom:10px;
 	left: 14px;
 	width: 130px;
-	background-color: gray;
+	background: linear-gradient(#817C99, black 110%);
+	border-radius: 10px;
+/*
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+*/
 }
 
 .problem {
 	background-color: gray;
 	border-radius: 10px;
-	height: 100px;
+	height: 160px;
 	margin: 0 10px 10px 155px;
+	overflow: auto;
+}
+
+.problem h2 {
+	position: relative;
+	margin: 10px 110px 10px 10px;
+	min-width:435px;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.problem p {
+	position: relative;
+	margin: 10px 110px 10px 10px;
+	min-width:435px;
+	font-family: Helvetica;
+	color: #ACACC1;
+	line-height: 113%;
+}
+
+#problem_spacer {
+	height: 120px;
+	background-color: transparent;
 }
 
 #problem1 {
 	background-color: #6E1634;
+	background: linear-gradient(to right, #6E1634, black 150%);
 }
 
 #problem2 {
 	background-color: #9A5C71;
+	background: linear-gradient(to right, #9A5C71, black 150%);
 }
 
 #problem3 {
 	background-color: #B88D9C;
+	background: linear-gradient(to right, #B88D9C, black 150%);
 }
 
 #problem4 {
 	background-color: #C5B0CC;
+	background: linear-gradient(to right, #C5B0CC, black 150%);
 }
 
 #problem5 {
 	background-color: #9999C6;
+	background: linear-gradient(to right, #9999C6, black 150%);
 }
 
 #problem6 {
 	background-color: #6D6DAD;
+	background: linear-gradient(to right, #6D6DAD, black 150%);
 }
 
 #problem7 {
 	background-color: #2E2E8A;
+	background: linear-gradient(to right, #2E2E8A, black 150%);
 }
 
 
