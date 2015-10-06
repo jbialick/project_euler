@@ -14,7 +14,7 @@
 	<div id="header">
 		<h1 id="title">Project Euler</h1>
 		<p id="quote">"Project Euler exists to <b>encourage</b>, <b>challenge</b>, and <b>develop</b> the skills and enjoyment of anyone with an interest in the fascinating world of mathematics."</p>
-		<img id="logo" alt="jb logo" height="110" src="jb_logo.png"/>
+		<img id="logo" alt="jb logo" height="110" src="img/jb_logo.png"/>
 	</div>
 
 	<div id="sidebar"></div>
@@ -25,8 +25,9 @@
 			<p>If we list all the natural numbers below 10 that are multiplers of 3 or 5, we get 3, 5, 6, 9. The sum of these multiples is 23.</p>
 			<p><b>Find the sum of all the multiples of 3 or 5 below _______ </b></p>
 			<form>
-				<input type="text" placeholder="Enter a number!"/>
-				<input type="submit" value="Calculate"/>
+				<input id = "p1_input" type="text" placeholder="Enter a number!"/>
+				<input type="submit" value="Calculate" onclick="p1_calc()"/>
+				<div class="output" id="p1_output"></div>
 			</form>
 		</div>
 		<div class="problem" id="problem2"></div>
@@ -35,10 +36,11 @@
 		<div class="problem" id="problem5"></div>
 		<div class="problem" id="problem6"></div>
 		<div class="problem" id="problem7"></div>
-<!--
-	<div id="body_container">
-	</div>
--->
+
+	<script type="text/javascript" src="js/problem_01.js"></script>
+	<script type="text/javascript" src="js/problem_02.js"></script>
+	<script type="text/javascript" src="js/problem_03.js"></script>
+
 </body>
 
 </html>
