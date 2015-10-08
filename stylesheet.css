@@ -23,11 +23,12 @@ hr {
     border-top: 1px solid #817C99;
 }
 
-form {
+.io_container {
 	margin: 10px 10px 10px 10px;
 	font-family:  "Arial Black", Gadget, sans-serif;
 	font-size: 14px;
 	color: #ACACC1;
+	background-color: transparent;
 }
 
 input[type="text"] {
@@ -45,7 +46,7 @@ input[type="text"].focus {
  	 box-shadow: 0 0 5px 2px white;
 }
 
-input[type="submit"] {
+button {
 	padding: 4px 8px 4px 8px;
 	color: white;
 	outline: none;
@@ -57,15 +58,19 @@ input[type="submit"] {
 	box-shadow: 0 0 4px white;
 }
 
-input[type="submit"]:hover {
+button:hover {
 	background-color: #293E47;
 }
 
-.output {
+.io_container .output {
 	display: inline-block;
-	height: 20px;
-	width: 100px;
-	background-color: white;
+	overflow: auto;
+	width:50px;
+	vertical-align: middle;
+	color: black;
+	font-size: 17px;
+	font-family:  "Arial Black", Gadget, sans-serif;
+	background-color: green;
 }
 
 #header {

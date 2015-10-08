@@ -17,7 +17,7 @@ function p1_calc() {
 		};
 	};
 
-document.getElementById("p1_input").value = sum;
+	document.getElementById("p1_output").innerHTML = "Answer: "+sum;
 }
 /*
 EXAMPLE
