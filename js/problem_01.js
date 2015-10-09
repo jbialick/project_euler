@@ -10,7 +10,10 @@ function p1_calc() {
 	var sum = 0;
 
 	if (isNaN(input)) {
-		document.getElementById("p1_output").innerHTML = "Answer: That's not a number!";
+		document.getElementById("p1_output").innerHTML = "That's not a number!";
+	}
+	else if (input < 0) {
+		document.getElementById("p1_output").innerHTML = "Positive numbers please!"
 	}
 	else {
 		for (i=1; i<input; i++) {

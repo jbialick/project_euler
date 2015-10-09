@@ -121,16 +121,66 @@ button:hover {
 	width: 130px;
 	background: linear-gradient(#817C99, black 110%);
 	border-radius: 10px;
-/*
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-*/
+}
+
+#signature {
+	position: absolute;
+	bottom: 110px;
+	margin: 10px 10px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #E0EBFF;
+}
+
+#roles {
+	position: absolute;
+	bottom: 65px;
+	margin: 10px 3px 0px 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #9A9FDB;
+}
+
+#linkedin {
+	position: absolute;
+	bottom: 41px;
+	margin: 10px 3px 0px 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #3C3BF3;
+	text-decoration: none;
+}
+
+#github {
+	position: absolute;
+	bottom: 23px;
+	margin: 10px 3px 0px 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #3C3BF3;
+	text-decoration: none;
+}
+
+#tableau {
+	position: absolute;
+	bottom: 5px;
+	margin: 10px 3px 0px 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #3C3BF3;
+	text-decoration: none;
+}
+
+a:visited {
+	color: purple;
 }
 
 .problem {
 	background-color: gray;
 	border-radius: 10px;
-	/*height: 160px;*/
+	min-height: 115px;
 	margin: 0 10px 10px 155px;
 	overflow: overlay;
 }
@@ -147,48 +197,73 @@ button:hover {
 	margin: 10px 110px 10px 10px;
 	min-width:435px;
 	font-family: Helvetica;
-	color: #ACACC1;
+	color: #E5E5D7;
 	line-height: 113%;
 }
+/*
+.dark {
+	color: #000000;
+}
 
+.dark p {
+	color: #333333;
+}
+*/
 #problem_spacer {
 	height: 120px;
 	background-color: transparent;
 }
-
 #problem1 {
 	background-color: #6E1634;
 	background: linear-gradient(to right, #6E1634, black 150%);
 }
-
 #problem2 {
 	background-color: #9A5C71;
 	background: linear-gradient(to right, #9A5C71, black 150%);
 }
-
 #problem3 {
-	background-color: #B88D9C;
-	background: linear-gradient(to right, #B88D9C, black 150%);
+	background-color: #A67F8C;
+	background: linear-gradient(to right, #A67F8C, black 150%);
 }
-
 #problem4 {
 	background-color: #C5B0CC;
 	background: linear-gradient(to right, #C5B0CC, black 150%);
 }
-
 #problem5 {
 	background-color: #9999C6;
 	background: linear-gradient(to right, #9999C6, black 150%);
 }
-
 #problem6 {
 	background-color: #6D6DAD;
 	background: linear-gradient(to right, #6D6DAD, black 150%);
 }
-
 #problem7 {
 	background-color: #2E2E8A;
 	background: linear-gradient(to right, #2E2E8A, black 150%);
+}
+#problem8 {
+	background-color: #6D6DAD;
+	background: linear-gradient(to right, #6D6DAD, black 150%);
+}
+#problem9 {
+	background-color: #9999C6;
+	background: linear-gradient(to right, #9999C6, black 150%);
+}
+#problem10 {
+	background-color: #AFC5D0;
+	background: linear-gradient(to right, #AFC5D0, black 150%);
+}
+#problem11 {
+	background-color: #82BAA9;
+	background: linear-gradient(to right, #82BAA9, black 150%);
+}
+#problem12 {
+	background-color: #4D9C84;
+	background: linear-gradient(to right, #4D9C84, black 150%);
+}
+#problem13 {
+	background-color: #00714F;
+	background: linear-gradient(to right, #00714F, black 150%);
 }
 
 

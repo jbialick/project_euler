@@ -9,22 +9,30 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 find the sum of the even-valued terms.
 */
 
-var sum = 0;
-var x = 1;
-var y = 1;
-var z = 0;
+function p2_calc() {
+	var input = Number(document.getElementById("p2_input").value);
+	var sum = 0;
+	var x = 1;
+	var y = 1;
+	var z = 0;
 
-do {
-	//console.log(x);
+	if(isNaN(input)) {
+		document.getElementById("p2_output").innerHTML = "That's not a number!";
+	}
+	else if (input < 0) {
+		document.getElementById("p2_output").innerHTML = "Positive Numbers Please!"
+	}
+	else {
+		do {
+			if(x%2 === 0) {
+				sum += x;
+			};
 
-	if(x%2 === 0) {
-		sum += x;
+			z = x + y;
+			y = x;
+			x = z;
+		}
+		while (x <= input);
+		document.getElementById("p2_output").innerHTML = "Answer: "+sum;
 	};
-
-	z = x + y;
-	y = x;
-	x = z;
-}
-while (x < 4000000);
-
-console.log(sum);
+};
