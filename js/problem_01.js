@@ -7,36 +7,17 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 function p1_calc() {
 	var input = Number(document.getElementById("p1_input").value);
-	// CHECK FOR STRING??
 	var sum = 0;
 
-	for (i=1; i<input; i++) {
-		if ( i%3 === 0 || i%5 === 0) {
-			sum += i;
-			//console.log(i);
+	if (isNaN(input)) {
+		document.getElementById("p1_output").innerHTML = "Answer: That's not a number!";
+	}
+	else {
+		for (i=1; i<input; i++) {
+			if ( i%3 === 0 || i%5 === 0) {
+				sum += i;
+			};
 		};
-	};
-
 	document.getElementById("p1_output").innerHTML = "Answer: "+sum;
-}
-/*
-EXAMPLE
-<body>
-
-<input type="number" id="myNumber" value="">
-<p>Click the button to change the number of the number field.</p>
-<button onclick="myFunction()">Try it</button> <br><br>
-<input type="number" id="test" value="2"><br><br>
-<div id="output"></div>
-
-<script>
-function myFunction() {
-    var test = document.getElementById("myNumber").value;
-    document.getElementById("test").value = test;
-    document.getElementById("output").innerHTML = test;
-}
-</script>
-
-</body>
-</html>
-*/
+	};
+};

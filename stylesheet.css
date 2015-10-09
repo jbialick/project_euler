@@ -62,15 +62,20 @@ button:hover {
 	background-color: #293E47;
 }
 
+.io_container {
+	overflow-x:none;
+	white-space:nowrap;
+}
+
 .io_container .output {
 	display: inline-block;
-	overflow: auto;
-	width:50px;
+	margin: 0 0 0 15px;
+	min-width: 0;
 	vertical-align: middle;
-	color: black;
-	font-size: 17px;
+	color: white;
+	font-size: 16px;
 	font-family:  "Arial Black", Gadget, sans-serif;
-	background-color: green;
+	background-color: transparent;
 }
 
 #header {
@@ -125,9 +130,9 @@ button:hover {
 .problem {
 	background-color: gray;
 	border-radius: 10px;
-	height: 160px;
+	/*height: 160px;*/
 	margin: 0 10px 10px 155px;
-	overflow: auto;
+	overflow: overlay;
 }
 
 .problem h2 {
